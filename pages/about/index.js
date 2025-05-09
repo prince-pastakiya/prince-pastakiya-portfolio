@@ -34,6 +34,7 @@ export const aboutData = [
 				icons: [
 					<PiMicrosoftExcelLogoFill />,
 					<SiMysql />,
+					<SiPostgresql />,
 					<BsDatabaseFillGear />,
 				],
 			},
