@@ -6,8 +6,8 @@ const Avatar = () => {
 		<div className="pl-20 mb-5 hidden xl:flex xl:max-w-none overflow-hidden">
 			<Image
 				src={"/1.png"}
-				width={800}
-				height={800}
+				width={650}
+				height={650}
 				alt=""
 				className="translate-z-0 w-full h-full"
 			/>
