@@ -13,6 +13,8 @@ import {
 	SiPostgresql,
 	BsDatabaseFillGear,
 	FcComboChart,
+	FcDoughnutChart,
+	SiTableau,
 } from "react-icons/si";
 
 //  about data
@@ -37,6 +39,7 @@ export const aboutData = [
 					<SiMysql />,
 					<SiPostgresql />,
 					<BsDatabaseFillGear />,
+					<SiTableau />,
 				],
 			},
 			{
