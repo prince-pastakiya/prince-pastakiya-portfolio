@@ -5,7 +5,7 @@ export const workSlider = {
 			images: [
 				{
 					title: "Uber Data Analysis",
-					path: "/Uber-Data_Analysis.png",
+					path: "/Uber-Data_Analytics.png",
 				},
 				{
 					title: "Roomify - Hotel Booking",
