@@ -18,8 +18,9 @@ import {
 	SiNumpy,
 	SiScipy,
 	SiJupyter,
-	CiDatabase,
 } from "react-icons/si";
+
+import { CiDatabase } from "react-icons/ci";
 
 //  about data
 export const aboutData = [
