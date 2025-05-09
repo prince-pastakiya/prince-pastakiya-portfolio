@@ -13,15 +13,12 @@ import {
 } from "react-icons/fa";
 
 import {
-	SiNextdotjs,
-	SiC,
-	SiTailwindcss,
 	SiPython,
 	SiPandas,
 	SiNumpy,
 	SiScipy,
 	SiJupyter,
-	BsDatabaseFillGear,
+	CiDatabase,
 } from "react-icons/si";
 
 //  about data
@@ -41,7 +38,7 @@ export const aboutData = [
 			},
 			{
 				title: "Data Management",
-				icons: [<BsDatabaseFillGear key="bigdata" />, <SiC key="c" />],
+				icons: [<CiDatabase key="database" />],
 			},
 		],
 	},
