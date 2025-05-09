@@ -24,17 +24,25 @@ const Socials = () => {
 				className="hover:text-accent transition-all duration-300 ">
 				<RiGithubFill />
 			</Link>
-			<Link href={""} className="hover:text-accent transition-all duration-300">
+			<Link
+				href={"https://www.facebook.com/prince.pastakiya.3"}
+				className="hover:text-accent transition-all duration-300">
 				<RiFacebookFill />
 			</Link>
-			<Link href={""} className="hover:text-accent transition-all duration-300">
+			<Link
+				href={"https://www.instagram.com/pastakiya._/"}
+				className="hover:text-accent transition-all duration-300">
 				<RiInstagramFill />
 			</Link>
 
-			<Link href={""} className="hover:text-accent transition-all duration-300">
+			<Link
+				href={"https://www.pinterest.com/princepastakiya/"}
+				className="hover:text-accent transition-all duration-300">
 				<RiPinterestFill />
 			</Link>
-			<Link href={""} className="hover:text-accent transition-all duration-300">
+			<Link
+				href={"https://www.youtube.com/@princepastakiya"}
+				className="hover:text-accent transition-all duration-300">
 				<RiYoutubeFill />
 			</Link>
 		</div>

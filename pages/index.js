@@ -25,8 +25,8 @@ const Home = () => {
 						animate="show"
 						exit="hidden"
 						className="h1">
-						Software Developer <br /> &{" "}
-						<span className="text-accent">Web Developer</span>
+						Data Analyst <br /> &{" "}
+						<span className="text-accent">Python Developer</span>
 					</motion.h1>
 					{/* subtitle */}
 					<motion.p
@@ -35,11 +35,11 @@ const Home = () => {
 						animate="show"
 						exit="hidden"
 						className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">
-						Hi, I’m Prince Pastakiya, a passionate web and software developer
-						with a knack for turning ideas into functional, user-friendly
-						applications. My journey began with lines of HTML and CSS, and over
-						the years, I’ve evolved into a full-stack developer who thrives on
-						solving complex problems.
+						Analytical and results-driven Data Analyst with a B.S. in Computer
+						and Information Sciences (GPA: 3.3), skilled in SQL, Python,
+						Tableau, and Databricks. Eager to turn complex data into actionable
+						insights and support business decision-making in a growth-focused
+						organization.
 					</motion.p>
 					{/* btn */}
 					<div className="flex justify-center xl:hidden relative">
