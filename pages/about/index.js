@@ -18,10 +18,14 @@ import {
 	SiNumpy,
 	SiScipy,
 	SiJupyter,
+	SiMysql,
 } from "react-icons/si";
 
 import { CiDatabase } from "react-icons/ci";
 import { RiFileExcel2Fill } from "react-icons/ri";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { IoLogoTableau } from "react-icons/io5";
+import { FcDoughnutChart, FcComboChart } from "react-icons/fc";
 
 //  about data
 export const aboutData = [
@@ -43,6 +47,16 @@ export const aboutData = [
 				icons: [
 					<CiDatabase key="database" />,
 					<RiFileExcel2Fill key="excel" />,
+					<SiMysql key="mysql" />,
+					<BiLogoPostgresql key="postgresql" />,
+				],
+			},
+			{
+				title: "Data Visualization",
+				icons: [
+					<IoLogoTableau key="tableau" />,
+					<FcDoughnutChart key="doughnut" />,
+					<FcComboChart key="combo" />,
 				],
 			},
 		],
