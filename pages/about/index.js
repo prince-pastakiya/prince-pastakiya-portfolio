@@ -12,7 +12,17 @@ import {
 	FaJava,
 } from "react-icons/fa";
 
-import { SiNextdotjs, SiC, SiTailwindcss } from "react-icons/si";
+import {
+	SiNextdotjs,
+	SiC,
+	SiTailwindcss,
+	SiPython,
+	SiPandas,
+	SiNumpy,
+	SiScipy,
+	SiJupyter,
+	PiFileSql,
+} from "react-icons/si";
 
 //  about data
 export const aboutData = [
@@ -20,14 +30,14 @@ export const aboutData = [
 		title: "skills",
 		info: [
 			{
-				title: "Web Development",
+				title: "Data Analysis",
 				icons: [
-					<FaReact key="react" />,
-					<FaJs key="js" />,
-					<SiNextdotjs key="nextjs" />,
-					<SiTailwindcss key="tailwind" />,
-					<FaHtml5 key="html5" />,
-					<FaCss3 key="css3" />,
+					<SiPython key="python" />,
+					<SiPandas key="pandas" />,
+					<SiNumpy key="numpy" />,
+					<SiScipy key="scipy" />,
+					<SiJupyter key="jupyter" />,
+					<PiFileSql key="sql" />,
 				],
 			},
 			{
