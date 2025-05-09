@@ -12,6 +12,7 @@ import {
 	SiMysql,
 	SiPostgresql,
 	BsDatabaseFillGear,
+	FcComboChart,
 } from "react-icons/si";
 
 //  about data
@@ -40,6 +41,7 @@ export const aboutData = [
 			},
 			{
 				title: "Data Visualization",
+				icons: [<FcComboChart />, <FcDoughnutChart />],
 			},
 		],
 	},
