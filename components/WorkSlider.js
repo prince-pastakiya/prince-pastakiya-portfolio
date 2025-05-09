@@ -6,6 +6,7 @@ export const workSlider = {
 				{
 					title: "Uber Data Analysis",
 					path: "/Uber-Data_Analytics.png",
+					alt: "https://github.com/prince-pastakiya/Uber-Data-Analytics-Project",
 				},
 				{
 					title: "Roomify - Hotel Booking",
@@ -13,7 +14,7 @@ export const workSlider = {
 				},
 				{
 					title: "Portfolio Website",
-					path: "/photography1.JPG",
+					path: "/photography1.jpg",
 				},
 				{
 					title: "Finance Dashboard - Machine Learning",
