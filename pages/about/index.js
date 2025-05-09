@@ -65,7 +65,7 @@ export const aboutData = [
 		title: "certifications",
 		info: [
 			{
-				title: "AWS Certified Solutions Architect - Associate",
+				title: "AWS Certified Solutions Architect (Associate)",
 				stage: "Jul 2024 - Jul 2027",
 			},
 			{
@@ -78,16 +78,12 @@ export const aboutData = [
 		title: "experience",
 		info: [
 			{
-				title: "UX/UI Designer - XYZ Company",
-				stage: "2012 - 2023",
+				title: "Data Analyst - Verizon",
+				stage: "Feb 2025 - Present",
 			},
 			{
-				title: "Web Developer - ABC Agency",
-				stage: "2010 - 2012",
-			},
-			{
-				title: "Intern - DEF Corporation",
-				stage: "2008 - 2010",
+				title: "Data Analyst - Flexera",
+				stage: "Jan 2024 - Dec 2024",
 			},
 		],
 	},
@@ -95,16 +91,13 @@ export const aboutData = [
 		title: "hackathons",
 		info: [
 			{
-				title: "Web Development - ABC University, LA, CA",
-				stage: "2011",
+				title: "Web Development Hackathon - Troy University, Troy, AL",
+				stage: "Nov 2024",
 			},
 			{
-				title: "Computer Science Diploma - AV Technical Institute",
-				stage: "2009",
-			},
-			{
-				title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-				stage: "2006",
+				title:
+					"Data Science Hackathon - University of South Alabama, Mobile, AL",
+				stage: "Mar 2024",
 			},
 		],
 	},
@@ -146,7 +139,7 @@ const About = () => {
 						exit="hidden"
 						className="text-[32px] font-bold mt-6 mb-6">
 						<span className="text-accent mr-3">CodeCrafted:</span>
-						Web & Software Development Showcase.
+						Data Analysis & Visualization Showcase.
 					</motion.h2>
 					<motion.p
 						variants={fadeIn("right", 0.4)}
@@ -154,10 +147,11 @@ const About = () => {
 						animate="show"
 						exit="hidden"
 						className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
-						Highly motivated Computer Science Bachelor of Science graduate with
-						passion for front-end and software development. I am eager to
-						leverage my skills knowledge to embark on a rewarding career as an
-						entry-level front-end or software developer.
+						Analytical and results-driven Data Analyst with a B.S. in Computer
+						and Information Sciences (GPA: 3.3), skilled in SQL, Python,
+						Tableau, and Databricks. Eager to turn complex data into actionable
+						insights and support business decision-making in a growth-focused
+						organization.
 					</motion.p>
 					{/* counters */}
 					<motion.div
@@ -170,19 +164,19 @@ const About = () => {
 							{/* experience */}
 							<div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
 								<div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-									<CountUp start={0} end={3} duration={5} /> +
+									<CountUp start={0} end={2} duration={5} /> +
 								</div>
 								<div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-									Years of experience
+									Years of Professional Experience
 								</div>
 							</div>
 							{/* projects */}
 							<div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
 								<div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-									<CountUp start={0} end={15} duration={5} /> +
+									<CountUp start={0} end={10} duration={5} /> +
 								</div>
 								<div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-									Finished projects
+									Finished Projects On GitHub
 								</div>
 							</div>
 						</div>
