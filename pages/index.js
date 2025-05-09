@@ -56,17 +56,17 @@ const Home = () => {
 				</div>
 			</div>
 			{/* image */}
-			<div className="w-[1200px] h-full absolute right-0 bottom-0">
+			<div className="w-[1200px] h-full absolute right-5 bottom-0">
 				{/* particles */}
 				<ParticlesContainer />
 				{/* avatar img */}
 				<motion.div
-					variants={fadeIn("up", 1)}
+					variants={fadeIn("up", 2)}
 					initial="hidden"
 					animate="show"
 					exit="hidden"
 					transition={{ duration: 10, ease: "easeInOut" }}
-					className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[15%]">
+					className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[10%]">
 					<Avatar />
 				</motion.div>
 			</div>
