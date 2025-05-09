@@ -41,7 +41,7 @@ export const aboutData = [
 		],
 	},
 	{
-		title: "awards",
+		title: "certifications",
 		info: [
 			{
 				title: "Webby Awards - Honoree",
@@ -71,7 +71,7 @@ export const aboutData = [
 		],
 	},
 	{
-		title: "credentials",
+		title: "hackathons",
 		info: [
 			{
 				title: "Web Development - ABC University, LA, CA",
