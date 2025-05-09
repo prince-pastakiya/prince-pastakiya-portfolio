@@ -21,6 +21,7 @@ import {
 	SiNumpy,
 	SiScipy,
 	SiJupyter,
+	BsDatabaseFillGear,
 } from "react-icons/si";
 
 //  about data
@@ -39,8 +40,8 @@ export const aboutData = [
 				],
 			},
 			{
-				title: "Software Development",
-				icons: [<FaJava key="java" />, <SiC key="c" />],
+				title: "Data Management",
+				icons: [<BsDatabaseFillGear key="bigdata" />, <SiC key="c" />],
 			},
 		],
 	},
