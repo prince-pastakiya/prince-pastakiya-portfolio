@@ -30,7 +30,14 @@ const Work = () => {
 							exit="hidden"
 							className="mb-4 max-w-[400px] mx-auto lg:mx-0">
 							Here are my recent projects. Some of them are not deployed yet but
-							I am still working on other projects.
+							I am still working on other projects. <br />
+							You can check them out on: <br />
+							<a
+								href="https://github.com/prince-pastakiya"
+								target="_blank"
+								className="text-accent underline">
+								Github
+							</a>
 						</motion.p>
 					</div>
 
