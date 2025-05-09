@@ -21,7 +21,6 @@ import {
 	SiNumpy,
 	SiScipy,
 	SiJupyter,
-	PiFileSql,
 } from "react-icons/si";
 
 //  about data
@@ -37,7 +36,6 @@ export const aboutData = [
 					<SiNumpy key="numpy" />,
 					<SiScipy key="scipy" />,
 					<SiJupyter key="jupyter" />,
-					<PiFileSql key="sql" />,
 				],
 			},
 			{
