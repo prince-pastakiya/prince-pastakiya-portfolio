@@ -21,6 +21,7 @@ import {
 } from "react-icons/si";
 
 import { CiDatabase } from "react-icons/ci";
+import { RiFileExcel2Fill } from "react-icons/ri";
 
 //  about data
 export const aboutData = [
@@ -39,7 +40,10 @@ export const aboutData = [
 			},
 			{
 				title: "Data Management",
-				icons: [<CiDatabase key="database" />],
+				icons: [
+					<CiDatabase key="database" />,
+					<RiFileExcel2Fill key="excel" />,
+				],
 			},
 		],
 	},
