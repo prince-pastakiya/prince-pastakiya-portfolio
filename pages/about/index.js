@@ -53,11 +53,11 @@ export const aboutData = [
 		info: [
 			{
 				title: "AWS Cerfified Solutions Architect Associate",
-				stage: "Jul 2024 - Jul 2027",
+				stage: "2024",
 			},
 			{
 				title: "Tablueau Certified Data Analyst",
-				stage: "In Progress",
+				stage: "2025",
 			},
 		],
 	},
@@ -65,12 +65,12 @@ export const aboutData = [
 		title: "experience",
 		info: [
 			{
-				title: "Data Analyst - Verizon (USA)",
-				stage: "Feb 2025 - Present",
+				title: "Data Analyst - Verizon",
+				stage: "2025",
 			},
 			{
-				title: "Data Analyst - Flexera (USA)",
-				stage: "Jan 2024 - Dec 2024",
+				title: "Data Analyst - Flexera",
+				stage: "2024",
 			},
 		],
 	},
@@ -78,7 +78,7 @@ export const aboutData = [
 		title: "hackathons",
 		info: [
 			{
-				title: "Web Development - Hackathon - Troy University, Troy, AL",
+				title: "Web Development - Hackathon, Troy University, Troy, AL",
 				stage: "2024",
 			},
 		],
