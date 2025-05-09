@@ -65,12 +65,12 @@ export const aboutData = [
 		title: "certifications",
 		info: [
 			{
-				title: "Webby Awards - Honoree",
-				stage: "2011 - 2012",
+				title: "AWS Certified Solutions Architect - Associate",
+				stage: "Jul 2024 - Jul 2027",
 			},
 			{
-				title: "Adobe Design Achievement Awards - Finalist",
-				stage: "2009 - 2010",
+				title: "Tablueau Visualization",
+				stage: "In Progress",
 			},
 		],
 	},
