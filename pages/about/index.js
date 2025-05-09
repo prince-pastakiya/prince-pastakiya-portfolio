@@ -42,11 +42,7 @@ export const aboutData = [
 			},
 			{
 				title: "Software Development",
-				icons: [
-					<FaPython key="python" />,
-					<FaJava key="java" />,
-					<SiC key="c" />,
-				],
+				icons: [<FaJava key="java" />, <SiC key="c" />],
 			},
 		],
 	},
