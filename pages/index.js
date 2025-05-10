@@ -62,7 +62,7 @@ const Home = () => {
 				<ParticlesContainer />
 				{/* avatar img */}
 				<motion.div
-					variants={fadeIn("up", 5)}
+					variants={fadeIn("up", 4)}
 					initial="hidden"
 					animate="show"
 					exit="hidden"
