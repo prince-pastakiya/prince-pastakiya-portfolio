@@ -15,10 +15,10 @@ const ProjectsBtn = () => {
 				className="relative w-[185px] h-[185px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group">
 				<Image
 					src={"/rounded-text.png"}
-					width={250}
-					height={250}
+					width={500}
+					height={500}
 					alt=""
-					className="animate-spin-slow w-full h-full max-w-[250px] max-h-[250px]"
+					className="animate-spin-slow w-full h-full max-w-[300px] max-h-[300px]"
 				/>
 				<HiArrowRight className="absolute text-4xl group-hover:translate-x-2 transition-all duration-300" />
 			</Link>
