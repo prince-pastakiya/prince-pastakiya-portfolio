@@ -22,7 +22,7 @@ const Contact = () => {
 						initial="hidden"
 						animate="show"
 						exit="hidden"
-						className="h2 text-center mb-12">
+						className="h2 text-center mt-6 mb-12">
 						Connect <span className="text-accent">Me.</span>
 					</motion.h2>
 					{/* form */}

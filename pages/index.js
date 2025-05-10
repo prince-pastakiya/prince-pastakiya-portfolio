@@ -24,7 +24,7 @@ const Home = () => {
 						initial="hidden"
 						animate="show"
 						exit="hidden"
-						className="h2">
+						className="h2 mt-6 mb-6">
 						Leveraging Data to <br />
 						<span className="text-accent">Catalyze Impact.</span>
 					</motion.h2>
