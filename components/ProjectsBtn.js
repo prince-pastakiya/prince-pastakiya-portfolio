@@ -11,14 +11,14 @@ const ProjectsBtn = () => {
 	return (
 		<div className="mx-auto xl:mx-0 z-10">
 			<Link
-				href={"/work"}
+				href={"/files/Resume.pdf"}
 				className="relative w-[185px] h-[185px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group">
 				<Image
 					src={"/rounded-text.png"}
 					width={250}
 					height={250}
 					alt=""
-					className="animate-spin-slow w-full h-full max-w-[225px] max-h-[225px]"
+					className="animate-spin-slow w-full h-full max-w-[250px] max-h-[250px]"
 				/>
 				<HiArrowRight className="absolute text-4xl group-hover:translate-x-2 transition-all duration-300" />
 			</Link>
