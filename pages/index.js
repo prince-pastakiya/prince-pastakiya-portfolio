@@ -25,8 +25,7 @@ const Home = () => {
 						animate="show"
 						exit="hidden"
 						className="h1">
-						Data Analyst <br /> &{" "}
-						<span className="text-accent">Python Developer</span>
+						Data<span className="text-accent">" "Analyst </span>
 					</motion.h1>
 					{/* subtitle */}
 					<motion.p
