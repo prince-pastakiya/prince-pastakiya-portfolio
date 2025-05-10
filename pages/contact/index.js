@@ -13,6 +13,8 @@ import { fadeIn } from "../../variants";
 const Contact = () => {
 	return (
 		<div className="h-full bg-primary/30">
+			<div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0 pl-20"></div>
+
 			<div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
 				{/* text & form */}
 				<div className="flex flex-col w-full max-w-[700px]">
