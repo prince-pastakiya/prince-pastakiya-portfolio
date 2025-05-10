@@ -35,7 +35,7 @@ const Work = () => {
 							<a
 								href="https://github.com/prince-pastakiya"
 								target="_blank"
-								className="text-accent underline">
+								className="text-white bold hover:text-accent-hover transition-all duration-300">
 								Github
 							</a>
 						</motion.p>
