@@ -20,7 +20,7 @@ const Home = () => {
 				<div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
 					{/* title */}
 					<motion.h1
-						variants={fadeIn("down", 0.5)}
+						variants={fadeIn("down", 1)}
 						initial="hidden"
 						animate="show"
 						exit="hidden"
@@ -29,7 +29,7 @@ const Home = () => {
 					</motion.h1>
 					{/* subtitle */}
 					<motion.p
-						variants={fadeIn("down", 1)}
+						variants={fadeIn("down", 2)}
 						initial="hidden"
 						animate="show"
 						exit="hidden"
@@ -45,7 +45,7 @@ const Home = () => {
 						<ProjectsBtn />
 					</div>
 					<motion.div
-						variants={fadeIn("down", 2)}
+						variants={fadeIn("down", 3)}
 						initial="hidden"
 						animate="show"
 						exit="hidden"
@@ -62,7 +62,7 @@ const Home = () => {
 				<ParticlesContainer />
 				{/* avatar img */}
 				<motion.div
-					variants={fadeIn("up", 3)}
+					variants={fadeIn("up", 4)}
 					initial="hidden"
 					animate="show"
 					exit="hidden"
