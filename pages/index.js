@@ -29,7 +29,7 @@ const Home = () => {
 					</motion.h1>
 					{/* subtitle */}
 					<motion.p
-						variants={fadeIn("down", 2)}
+						variants={fadeIn("right", 2)}
 						initial="hidden"
 						animate="show"
 						exit="hidden"
@@ -45,7 +45,7 @@ const Home = () => {
 						<ProjectsBtn />
 					</div>
 					<motion.div
-						variants={fadeIn("down", 3)}
+						variants={fadeIn("left", 3)}
 						initial="hidden"
 						animate="show"
 						exit="hidden"
@@ -62,7 +62,7 @@ const Home = () => {
 				<ParticlesContainer />
 				{/* avatar img */}
 				<motion.div
-					variants={fadeIn("up", 4)}
+					variants={fadeIn("up", 5)}
 					initial="hidden"
 					animate="show"
 					exit="hidden"
