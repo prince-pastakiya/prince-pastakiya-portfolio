@@ -20,7 +20,7 @@ const Home = () => {
 				<div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
 					{/* title */}
 					<motion.h1
-						variants={fadeIn("down", 0.2)}
+						variants={fadeIn("down", 0.5)}
 						initial="hidden"
 						animate="show"
 						exit="hidden"
@@ -29,7 +29,7 @@ const Home = () => {
 					</motion.h1>
 					{/* subtitle */}
 					<motion.p
-						variants={fadeIn("down", 0.3)}
+						variants={fadeIn("down", 1)}
 						initial="hidden"
 						animate="show"
 						exit="hidden"
@@ -45,7 +45,7 @@ const Home = () => {
 						<ProjectsBtn />
 					</div>
 					<motion.div
-						variants={fadeIn("down", 0.4)}
+						variants={fadeIn("down", 2)}
 						initial="hidden"
 						animate="show"
 						exit="hidden"
@@ -55,19 +55,19 @@ const Home = () => {
 				</div>
 			</div>
 			{/* image */}
-			<div className="w-[1200px] h-full absolute right-5 bottom-0">
+			<div className="w-[1200px] h-full absolute right-0 bottom-0">
 				{/* bg img */}
 				{/* <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0 pl-20"></div> */}
 				{/* particles */}
 				<ParticlesContainer />
 				{/* avatar img */}
 				<motion.div
-					variants={fadeIn("up", 2)}
+					variants={fadeIn("up", 3)}
 					initial="hidden"
 					animate="show"
 					exit="hidden"
 					transition={{ duration: 10, ease: "easeInOut" }}
-					className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[5%]">
+					className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]">
 					<Avatar />
 				</motion.div>
 			</div>
