@@ -38,7 +38,7 @@ const Transition = () => {
 				animate="animate"
 				exit="exit"
 				transition={{
-					delay: 0.6,
+					delay: 0.8,
 					duration: 1,
 					ease: "easeInOut",
 				}}></motion.div>
@@ -49,7 +49,7 @@ const Transition = () => {
 				animate="animate"
 				exit="exit"
 				transition={{
-					delay: 0.6,
+					delay: 1,
 					duration: 1,
 					ease: "easeInOut",
 				}}></motion.div>
