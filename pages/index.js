@@ -25,8 +25,8 @@ const Home = () => {
 						animate="show"
 						exit="hidden"
 						className="h1">
-						Catalyzing Impact through <br />
-						<span className="text-accent"> Data Mastery.</span>
+						Leveraging Data to <br />
+						<span className="text-accent">Catalyze Impact.</span>
 					</motion.h1>
 					{/* subtitle */}
 					<motion.p
