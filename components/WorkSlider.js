@@ -6,7 +6,7 @@ export const workSlider = {
 				{
 					title: "Uber Data Analysis",
 					path: "/Uber-Data_Analytics.png",
-					alt: "https://github.com/prince-pastakiya/Uber-Data-Analytics-Project",
+					link: "https://github.com/prince-pastakiya/Uber-Data-Analytics-Project",
 				},
 				{
 					title: "Roomify - Hotel Booking",
@@ -79,6 +79,11 @@ const WorkSlider = () => {
 									<div
 										className="relative rounded-lg overflow-hidden flex items-center justify-center group"
 										key={index}>
+										<a
+											href={image.link}
+											target="_blank"
+											rel="noopener noreferrer"
+											className="flex items-center justify-center relative overflow-hidden group"></a>
 										<div className="flex items-center justify-center relative overflow-hidden group">
 											{/* image */}
 											<Image src={image.path} width={500} height={300} alt="" />
