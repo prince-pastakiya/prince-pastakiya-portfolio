@@ -5,7 +5,7 @@ export const workSlider = {
 			images: [
 				{
 					title: "HealthCare Patients Data Analytics",
-					path: "/HelathCare-Data-Analytics.png",
+					path: "HealthCare-Data-Analytics.png",
 					alt: "HealthCare Patients Data Analytics",
 					link: "https://app.powerbi.com/view?r=eyJrIjoiNjk3YzgwNjEtYjE2Ni00ZjA4LTkwNWQtODQ4OTE1ZjQyOTMwIiwidCI6ImY0ZTgwNzA3LWVmMTMtNDNhZi04NGU5LWU2NDc2Y2Y1NjhhYSIsImMiOjF9&pageName=9624bf0cdd2cf1a0b0f3",
 				},
